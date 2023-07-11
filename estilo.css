@@ -1,0 +1,224 @@
+body {
+    background: #FFF8E1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: #FFC000;
+    width: 100%;
+    height: 161px;
+    flex-shrink: 0;
+}
+
+.header1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1B1C20;
+    margin: 48px 0 8px 0;
+    text-align: center;
+}
+
+.header2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1B1C20;
+    margin: 8px 0 48px 0;
+    text-align: center;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.perfil_foto {
+    width: 212px;
+    height: 212px;
+    border-radius: 40px;
+    border: 3px solid #F26642;
+    margin-right: 24px;
+}
+
+.perfil_nome {
+    font-family: 'Damion', serif;
+    font-size: 80px;
+    font-weight: 400;
+    color: #1B1C20;
+    text-align: left;
+    margin-top: -5px;
+}
+
+.perfil_descricao {
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #F26642;
+    text-align: left;
+    margin-top: -20px;
+}
+
+.divisor {
+    width: 920px;
+    display: flex;
+    border: 2px solid #FFC000;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    width: 920px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sobre_titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #F26642;
+    text-align: left;
+}
+.sobre_texto {
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: #1B1C20;
+    margin: 8px 0 0 0;
+    padding-bottom: 8px;
+    text-align: justify;
+    line-height: 150%;
+}
+
+.conteudos {
+    display: flex;
+    flex-direction: column;
+    width: 920px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudos_titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #F26642;
+    text-align: left;
+}
+
+.conteudos_subtitulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #F26642;
+    text-align: left;
+    margin-top: -10px;
+    opacity: 0.7;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+
+.section_card {
+    width: 228px;
+    height: 260px;
+    border-radius: 5px;
+    background: #FFDE7B;
+    box-shadow: 1px 4px 6px 0px rgba(21, 21, 21, 0.25);
+    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.section_card_img {
+    width: 223px;
+    height: 224px;
+    border: 2px solid #F26642;
+    margin-bottom: 8px;
+}
+
+.seta:hover {
+    opacity: 0.6;
+}
+
+.contatos_titulo {
+    margin-top: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #1B1C20;
+    text-align: center;
+}
+
+.icones {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 24px auto 24px auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.icone_link {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.icone_link:hover {
+    opacity: 0.6;
+}
+
+.footer {
+    /*border: 1px solid red;*/
+    width: 100%;
+    height: 60px;
+    background-color: #FFC000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.footer_texto {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1B1C20;
+    display: flex;
+    align-items: center;
+}
+
+.icone--texto {
+    margin: 0 8px;
+    max-width: 20px;
+    animation: pulsar 1s infinite alternate;
+}
+
+@keyframes pulsar {
+   0% {
+    transform: scale(0.8);
+   } 
+   100% {
+    transform: scale(1.2);
+   }
+}
